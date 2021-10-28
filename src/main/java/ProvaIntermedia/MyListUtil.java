@@ -13,6 +13,10 @@ public class MyListUtil {
         this.number=number;
     }
 
+    public void getSize(){
+        System.out.println(number.size());
+    }
+
     public List<Integer> sort(List<Integer> number, int order){
         if(order==0){
             for(int i=0; i<number.size(); i++){
